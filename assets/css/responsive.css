@@ -1,0 +1,1617 @@
+/*
+=======================================================================
+                        media Query
+=======================================================================
+*/
+
+
+@media screen and (min-width:1400px) and (max-width:1600px) {
+  .Right_side {
+    margin: 0 40px;
+  }
+
+  .main_section {
+    grid-template-columns: 260px auto;
+  }
+
+  /* start Section -1 */
+
+  .pie_chart_1 .pie_ul .li_item .content h2 {
+    font-size: 50px;
+  }
+
+  .chart .number h3 {
+    font-size: 55px;
+  }
+
+  .chart .number span {
+    font-size: 30px;
+  }
+
+  .chart svg {
+    width: 230px;
+    height: 230px;
+  }
+
+  .chart svg circle {
+    r: 90px;
+    cy: 115;
+    cx: 115;
+  }
+
+  .chart svg circle {
+    stroke-width: 35;
+  }
+
+  .pie_chart_1 .pie_ul {
+    grid-auto-rows: 190px;
+  }
+
+  .one:before {
+    --mask: radial-gradient(139px at 104% 109%, #0000 calc(137px - 2px), #000 calc(138px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 4px 2px, #0000 25%, #000 0) -2px 0/100% calc(100% - 119px) repeat-x,
+      conic-gradient(at bottom 2px left 2px, #0000 25%, #000 0) 0 100%/calc(100% - 118px) 100% repeat-y
+  }
+
+  .two:before {
+    --mask: radial-gradient(139px at -4% 109%, #0000 calc(137px - 2px), #000 calc(138px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 3px 2px, #0000 25%, #000 0) 100% 0/100% calc(100% - 119px) repeat-x,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 100% 100%/calc(100% - 118px) 100% repeat-y
+  }
+
+  .three:before {
+    --mask: radial-gradient(139px at 104% -9%, #0000 calc(137px - 2px), #000 calc(138px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 2px 2px, #0000 25%, #000 0) 0 0/calc(100% - 118px) 100% repeat-y,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 0 100%/100% calc(100% - 119px) repeat-x
+  }
+
+  .four:before {
+    --mask: radial-gradient(139px at -4% -10%, #0000 calc(137px - 2px), #000 calc(138px - 1px) 98%, #0000),
+      conic-gradient(from 180deg at right 2px top 2px, #0000 0 90deg, #000 0) 100% 0/calc(100% - 118px) 100% no-repeat,
+      conic-gradient(from 0deg at left 2px bottom 2px, #0000 0 90deg, #000 0) 0 100%/100% calc(100% - 118px) no-repeat
+  }
+
+  .right_chart .profile_issue,
+  .right_chart .Network_status {
+    padding: 8px 15px;
+  }
+
+  .right_chart .profile_issue .heading_text,
+  .right_chart .Network_status .heading_text {
+    font-size: 16px;
+  }
+
+  .right_chart svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .right_chart svg circle {
+    r: 30px;
+    cx: 35px;
+    cy: 35px;
+  }
+
+  .right_chart .number h4 {
+    font-size: 20px;
+  }
+
+  .right_chart svg circle:last-of-type {
+    --value: 190px;
+  }
+
+  /* End Section -1 */
+
+
+  .pie_card svg circle:last-of-type {
+    --score: 345px;
+  }
+
+  .pie_card svg {
+    width: 130px;
+    height: 130px;
+  }
+
+  .peer_group {
+    grid-gap: 10px;
+  }
+
+  .pie_card circle {
+    r: 55px;
+    cx: 65px;
+    cy: 65px;
+  }
+
+  .pie_card .number h3 {
+    font-size: 28px;
+  }
+
+  .pie_card svg circle {
+    stroke-width: 16px;
+  }
+
+  .job_title {
+    font-size: 16px;
+  }
+
+  .count_txt {
+    padding: 4px 0;
+    font-size: 16px;
+  }
+
+  .my_heading {
+    color: white;
+    font-size: 16px;
+  }
+
+  .my_network_item p {
+    width: 80%;
+    padding: 4px 0;
+    font-size: 24px;
+  }
+
+  .txt_progress {
+    font-size: 28px;
+  }
+
+  .chartBox2 {
+    margin-top: 15px;
+  }
+
+  #GaugeChart {
+    margin-top: 15px;
+  }
+
+  .my_network {
+    margin-top: 15px;
+  }
+
+  .Profile_imges {
+    width: 60px;
+    height: 60px;
+  }
+
+  .Agencies p {
+    font-size: 14px;
+  }
+
+  .Polygon_imges span {
+    font-size: 16px;
+  }
+
+  /* Section-5 */
+  .menu_item {
+    --shape-width: 80px;
+  }
+
+  .menu_item .shape {
+    height: 70px;
+  }
+
+  .menu_item .cont p {
+    font-size: 18px;
+  }
+
+  .menu_item .cont .line {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1399px) {
+  body {
+    font-size: 18px;
+  }
+
+  .Right_side {
+    margin: 0 30px;
+  }
+
+  .your-text {
+    font-size: 14px;
+  }
+
+  .scores_ul .scores_item p {
+    font-size: 14px;
+  }
+
+  .main_section {
+    grid-template-columns: 250px auto;
+  }
+
+  .nav .nav_item .nav_link p {
+    font-size: 16px;
+  }
+
+
+
+  /* start Section -1 */
+  .section_1 {
+    grid-template-columns: 70% auto;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content h2 {
+    font-size: 40px;
+  }
+
+  .chart .number h3 {
+    font-size: 40px;
+  }
+
+  .chart .number span {
+    font-size: 25px;
+  }
+
+  .chart svg {
+    width: 180px;
+    height: 180px;
+  }
+
+  .chart svg circle {
+    r: 74px;
+    cy: 90;
+    cx: 90;
+  }
+
+  .chart svg circle:last-of-type {
+    --value: 464px;
+  }
+
+  .chart svg circle {
+    stroke-width: 30;
+  }
+
+  .pie_chart_1 .pie_ul {
+    grid-auto-rows: 190px;
+  }
+
+  .one:before {
+    --mask: radial-gradient(115px at 106% 108%, #0000 calc(114px - 2px), #000 calc(114px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 4px 2px, #0000 25%, #000 0) -2px 0/100% calc(100% - 96px) repeat-x,
+      conic-gradient(at bottom 2px left 2px, #0000 25%, #000 0) 0 100%/calc(100% - 94px) 100% repeat-y;
+  }
+
+  .two:before {
+    --mask: radial-gradient(115px at -5% 108%, #0000 calc(113px - 2px), #000 calc(115px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 3px 2px, #0000 25%, #000 0) 100% 0/100% calc(100% - 96px) repeat-x,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 100% 100%/calc(100% - 97px) 100% repeat-y;
+  }
+
+  .three:before {
+    --mask: radial-gradient(115px at 105% -9%, #0000 calc(112px - 2px), #000 calc(114px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 2px 2px, #0000 25%, #000 0) 0 0/calc(100% - 96px) 100% repeat-y,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 0 100%/100% calc(100% - 95px) repeat-x;
+  }
+
+  .four:before {
+    --mask: radial-gradient(115px at -5% -9%, #0000 calc(114px - 2px), #000 calc(114px - 1px) 98%, #0000),
+      conic-gradient(from 180deg at right 2px top 2px, #0000 0 90deg, #000 0) 100% 0/calc(100% - 98px) 100% no-repeat,
+      conic-gradient(from 0deg at left 2px bottom 2px, #0000 0 90deg, #000 0) 0 100%/100% calc(100% - 95px) no-repeat;
+  }
+
+  .right_chart .profile_issue,
+  .right_chart .Network_status {
+    padding: 8px 8px;
+  }
+
+  .right_chart .profile_issue .heading_text,
+  .right_chart .Network_status .heading_text {
+    font-size: 14px;
+  }
+
+  .right_chart svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .right_chart svg circle {
+    r: 34px;
+    cx: 40px;
+    cy: 40px;
+  }
+
+  .right_chart svg circle {
+    stroke-width: 12;
+  }
+
+  .right_chart .number h4 {
+    font-size: 20px;
+  }
+
+  .right_chart svg circle:last-of-type {
+    --value: 214px;
+  }
+
+  .right_chart span {
+    font-size: 14px;
+  }
+
+  /* End Section -1 */
+
+
+
+  .pie_card svg circle:last-of-type {
+    --score: 282px;
+  }
+
+  .pie_card svg {
+    width: 110px;
+    height: 110px;
+  }
+
+  .peer_group {
+    grid-gap: 10px;
+  }
+
+  .pie_card circle {
+    r: 45px;
+    cx: 55px;
+    cy: 55px;
+  }
+
+  .pie_card .number h3 {
+    font-size: 24px;
+  }
+
+  .pie_card svg circle {
+    stroke-width: 10;
+  }
+
+  .job_title {
+    font-size: 14px;
+  }
+
+  .count_txt {
+    padding: 4px 0;
+    font-size: 16px;
+  }
+
+  .section_4 {
+    grid-auto-rows: 260px;
+    grid-gap: 18px;
+  }
+
+  .my_heading {
+    color: white;
+    font-size: 16px;
+  }
+
+  .my_network_item p {
+    width: 80%;
+    padding: 2px 0;
+    font-size: 22px;
+  }
+
+  .txt_progress {
+    font-size: 24px;
+  }
+
+  .chartBox2 {
+    margin-top: 10px;
+  }
+
+  #GaugeChart {
+    margin-top: 10px;
+    width: 240px;
+  }
+
+  .My_References {
+    margin-top: 10px;
+  }
+
+  .Weak_txt p {
+    font-size: 14px;
+  }
+
+  .my_network {
+    margin-top: 10px;
+  }
+
+  .my_network_item span {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .pie_card_new svg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pie_card_new circle {
+    cy: 60px;
+    cx: 60px;
+    r: 50px;
+  }
+
+
+  .my_network {
+    margin-top: 15px;
+  }
+
+  .Profile_imges {
+    width: 45px;
+    height: 45px;
+  }
+
+  .Agencies p {
+    font-size: 13px;
+  }
+
+  .Polygon_imges span {
+    font-size: 14px;
+  }
+
+  .my_Profile_item {
+    display: grid;
+    grid-template-columns: auto 30px;
+    grid-gap: 5px;
+  }
+
+  .my_Profile_sec {
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Section-5 */
+  .menu_item {
+    --shape-width: 70px;
+    gap: 15px;
+  }
+
+  .menu_item .shape {
+    height: 60px;
+  }
+
+  .menu_item .cont p {
+    font-size: 16px;
+  }
+
+  .menu_item .cont .line {
+    margin-top: 8px;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 16px;
+  }
+
+  .Right_side {
+    margin: 0 16px;
+  }
+
+  .your-text {
+    font-size: 14px;
+  }
+
+  .scores_ul .scores_item p {
+    font-size: 14px;
+  }
+
+  .main_section {
+    grid-template-columns: 230px auto;
+    gap: 10px;
+  }
+
+  .nav .nav_item .nav_link p {
+    font-size: 14px;
+  }
+
+  .user {
+    grid-template-columns: 80px auto;
+  }
+
+  .hexagon {
+    height: 80px;
+  }
+
+  .nav {
+    margin-top: 20px;
+  }
+
+  /* start Section -1 */
+  .section_1 {
+    grid-template-columns: 70% auto;
+    gap: 20px;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content h2 {
+    font-size: 40px;
+  }
+
+  .chart .number h3 {
+    font-size: 35px;
+  }
+
+  .chart .number span {
+    font-size: 20px;
+  }
+
+  .chart svg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .chart svg circle {
+    r: 64px;
+    cy: 75;
+    cx: 75;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content {
+    width: 60%;
+  }
+
+  .chart svg circle:last-of-type {
+    --value: 402px;
+  }
+
+  .chart svg circle {
+    stroke-width: 20px;
+  }
+
+  .pie_chart_1 .pie_ul {
+    grid-auto-rows: 180px;
+    gap: 14px;
+  }
+
+  .one:before {
+    --mask: radial-gradient(105px at 108% 109%, #0000 calc(104px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 4px 2px, #0000 25%, #000 0) -2px 0/100% calc(100% - 85px) repeat-x,
+      conic-gradient(at bottom 2px left 2px, #0000 25%, #000 0) 0 100%/calc(100% - 83px) 100% repeat-y;
+  }
+
+  .two:before {
+    --mask: radial-gradient(104px at -7% 110%, #0000 calc(103px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 3px 2px, #0000 25%, #000 0) 100% 0/100% calc(100% - 83px) repeat-x,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 100% 100%/calc(100% - 85px) 100% repeat-y;
+  }
+
+  .three:before {
+    --mask: radial-gradient(104px at 108% -9%, #0000 calc(103px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 2px 2px, #0000 25%, #000 0) 0 0/calc(100% - 83px) 100% repeat-y,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 0 100%/100% calc(100% - 85px) repeat-x;
+  }
+
+  .four:before {
+    --mask: radial-gradient(104px at -7% -9%, #0000 calc(103px - 2px), #000 calc(103px - 1px) 98%, #0000),
+      conic-gradient(from 180deg at right 2px top 2px, #0000 0 90deg, #000 0) 100% 0/calc(100% - 85px) 100% no-repeat,
+      conic-gradient(from 0deg at left 2px bottom 2px, #0000 0 90deg, #000 0) 0 100%/100% calc(100% - 84px) no-repeat;
+  }
+
+
+  .right_chart .profile_issue,
+  .right_chart .Network_status {
+    padding: 8px 8px;
+  }
+
+  .right_chart .profile_issue .heading_text,
+  .right_chart .Network_status .heading_text {
+    font-size: 14px;
+  }
+
+  .right_chart svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .right_chart svg circle {
+    r: 34px;
+    cx: 40px;
+    cy: 40px;
+  }
+
+  .right_chart svg circle {
+    stroke-width: 12;
+  }
+
+  .right_chart .number h4 {
+    font-size: 20px;
+  }
+
+  .right_chart svg circle:last-of-type {
+    --value: 214px;
+  }
+
+  .right_chart span {
+    font-size: 14px;
+  }
+
+  .right_chart::after {
+    left: -10px;
+  }
+
+  /* End Section -1 */
+
+  .pie_card svg circle:last-of-type {
+    --score: 188px;
+  }
+
+  .pie_card svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .peer_group {
+    grid-gap: 10px;
+  }
+
+  .pie_card circle {
+    r: 33px;
+    cx: 40px;
+    cy: 40px;
+  }
+
+  .pie_card .number h3 {
+    font-size: 18px;
+  }
+
+  .pie_card svg circle {
+    stroke-width: 12px;
+  }
+
+  .job_title {
+    font-size: 14px;
+  }
+
+  .count_txt {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+
+  .peer_group {
+    margin-top: 10px;
+  }
+
+
+  .section_4 {
+    grid-gap: 18px;
+  }
+
+  .my_heading {
+    color: white;
+    font-size: 14px;
+  }
+
+  .my_network_item p {
+    width: 80%;
+    padding: 2px 0;
+    font-size: 20px;
+  }
+
+  .section_4 {
+    grid-template-columns: repeat(2, 1fr);
+}
+  .txt_progress {
+    font-size: 20px;
+  }
+
+  .chartBox2 {
+    margin-top: 10px;
+  }
+
+  #GaugeChart {
+    margin-top: 10px;
+    width: 210px;
+  }
+
+  .My_References {
+    margin-top: 10px;
+  }
+
+  .Weak_txt p {
+    font-size: 14px;
+  }
+
+  .my_network {
+    margin-top: 10px;
+  }
+
+  .my_network_item span {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .pie_card_new svg {
+    width: 110px;
+    height: 110px;
+  }
+
+  .pie_card_new circle {
+    cy: 55px;
+    cx: 55px;
+    r: 45px;
+  }
+
+  .pie_card_new svg circle {
+    stroke-width: 12px;
+  }
+
+  .pie_card_new svg circle:last-of-type {
+    stroke-dasharray: 270px;
+    stroke-dashoffset: calc(270px - (270px * var(--percent)) / 100);
+  }
+
+  .References_txt {
+    font-size: 14px;
+  }
+
+
+  .Profile_imges {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Agencies p {
+    font-size: 13px;
+  }
+
+  .Polygon_imges span {
+    font-size: 14px;
+  }
+
+  .my_Profile_item {
+    display: grid;
+    grid-template-columns: auto 30px;
+    grid-gap: 5px;
+  }
+
+  .my_Profile_sec {
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Section-5 */
+  .menu_item {
+    --shape-width: 60px;
+    gap: 15px;
+  }
+
+  .menu_item .shape {
+    height: 50px;
+  }
+
+  .menu_item .cont p {
+    font-size: 14px;
+  }
+
+  .menu_item .cont .line {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .black_layres {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: inline-block;
+    z-index: 8888;
+  }
+
+  .side_menu {
+    max-width: 270px;
+    position: absolute;
+    background-color: white;
+    left: -270px;
+    transition: 0.6s;
+    z-index: 9999;
+    overflow-y: auto;
+  }
+
+  .side_menu.active {
+    left: 0;
+    padding-top: 20px;
+  }
+
+  .closemenu {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .closemenu svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav .nav_item .nav_link p {
+    font-size: 16px;
+  }
+
+  .user {
+    grid-template-columns: 80px auto;
+  }
+
+  .hexagon {
+    height: 80px;
+  }
+
+  .nav {
+    margin-top: 20px;
+  }
+
+  /* start Section -1 */
+  .right_chart::after {
+    display: none;
+  }
+
+  .section_1 {
+    padding: 14px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .right_chart {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 210px;
+  }
+
+  /* End Section -1 */
+  .Weak_txt p {
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+  .Right_side {
+    margin: 0 30px;
+  }
+
+  /* start Section -1 */
+
+  .pie_chart_1 .pie_ul .li_item .content h2 {
+    font-size: 50px;
+  }
+
+  .chart .number h3 {
+    font-size: 55px;
+  }
+
+  .chart .number span {
+    font-size: 30px;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content {
+    width: 68%;
+  }
+
+  .chart svg circle:last-of-type {
+    --value: 566px;
+  }
+
+  .chart svg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .chart svg circle {
+    r: 85px;
+    cy: 100;
+    cx: 100;
+  }
+
+  .chart svg circle {
+    stroke-width: 30px;
+  }
+
+  .pie_chart_1 .pie_ul {
+    grid-auto-rows: 190px;
+  }
+
+  .one:before {
+    --mask: radial-gradient(125px at 105% 108%, #0000 calc(124px - 2px), #000 calc(125px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 4px 2px, #0000 25%, #000 0) -2px 0/100% calc(100% - 108px) repeat-x,
+      conic-gradient(at bottom 2px left 2px, #0000 25%, #000 0) 0 100%/calc(100% - 107px) 100% repeat-y;
+  }
+
+  .two:before {
+    --mask: radial-gradient(127px at -5% 109%, #0000 calc(126px - 2px), #000 calc(126px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 3px 2px, #0000 25%, #000 0) 100% 0/100% calc(100% - 107px) repeat-x,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 100% 100%/calc(100% - 108px) 100% repeat-y;
+  }
+
+  .three:before {
+    --mask: radial-gradient(126px at 105% -9%, #0000 calc(124px - 2px), #000 calc(126px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 2px 2px, #0000 25%, #000 0) 0 0/calc(100% - 107px) 100% repeat-y,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 0 100%/100% calc(100% - 106px) repeat-x;
+  }
+
+  .four:before {
+    --mask: radial-gradient(126px at -5% -9%, #0000 calc(125px - 2px), #000 calc(125px - 1px) 98%, #0000),
+      conic-gradient(from 180deg at right 2px top 2px, #0000 0 90deg, #000 0) 100% 0/calc(100% - 108px) 100% no-repeat,
+      conic-gradient(from 0deg at left 2px bottom 2px, #0000 0 90deg, #000 0) 0 100%/100% calc(100% - 106px) no-repeat;
+  }
+
+  .right_chart svg circle {
+    stroke-width: 15px;
+  }
+
+  /* End Section -1 */
+
+  .peer_group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .pie_card svg circle:last-of-type {
+    --score: 314px;
+  }
+
+  .pie_card svg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .pie_card circle {
+    r: 50px;
+    cx: 60px;
+    cy: 60px;
+  }
+
+  .pie_card .number h3 {
+    font-size: 28px;
+  }
+
+  .pie_card svg circle {
+    stroke-width: 14;
+  }
+
+  .job_title {
+    font-size: 16px;
+  }
+
+  .count_txt {
+    padding: 4px 0;
+    font-size: 16px;
+  }
+
+  .your-text {
+    font-size: 16px;
+  }
+
+  .scores_ul .scores_item p {
+    color: white;
+    font-size: 16px;
+  }
+
+  .section_4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .my_heading {
+    font-size: 16px;
+  }
+
+
+  .Profile_imges {
+    width: 70px;
+    height: 70px;
+  }
+
+  .Agencies p {
+    font-size: 13px;
+  }
+
+  .Polygon_imges span {
+    font-size: 14px;
+  }
+
+  .my_Profile_item {
+    grid-template-columns: auto 40px;
+    grid-gap: 5px;
+  }
+
+  /* Section-5 */
+  .menu_item {
+    --shape-width: 60px;
+    gap: 15px;
+  }
+
+  .menu_item .shape {
+    height: 50px;
+  }
+
+  .menu_item .cont p {
+    font-size: 14px;
+  }
+
+  .menu_item .cont .line {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+  body {
+    font-size: 16px;
+  }
+
+  .Right_side {
+    margin: 0 20px;
+  }
+
+  .peer_group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .nav {
+    margin-top: 20px;
+  }
+
+
+  /* start Section -1 */
+  .pie_chart_1 .pie_ul .li_item .content h2 {
+    font-size: 32px;
+  }
+
+  .chart .number h3 {
+    font-size: 35px;
+  }
+
+  .chart {
+    padding: 12px;
+  }
+
+  .chart .number span {
+    font-size: 20px;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content {
+    width: 67%;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content p {
+    font-size: 15px;
+  }
+
+  .chart svg circle:last-of-type {
+    --value: 408px;
+  }
+
+  .chart svg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .chart svg circle {
+    r: 65px;
+    cy: 75;
+    cx: 75;
+  }
+
+  .chart svg circle {
+    stroke-width: 19px;
+  }
+
+  .pie_chart_1 .pie_ul {
+    grid-auto-rows: 150px;
+    gap: 10px;
+  }
+
+  .one:before {
+    --mask: radial-gradient(100px at 106% 109%, #0000 calc(100px - 2px), #000 calc(100px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 4px 2px, #0000 25%, #000 0) -2px 0/100% calc(100% - 85px) repeat-x,
+      conic-gradient(at bottom 2px left 2px, #0000 25%, #000 0) 0 100%/calc(100% - 83px) 100% repeat-y;
+  }
+
+  .two:before {
+    --mask: radial-gradient(100px at -6% 109%, #0000 calc(99px - 2px), #000 calc(100px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 3px 2px, #0000 25%, #000 0) 100% 0/100% calc(100% - 83px) repeat-x,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 100% 100%/calc(100% - 84px) 100% repeat-y;
+  }
+
+  .three:before {
+    --mask: radial-gradient(100px at 106% -10%, #0000 calc(100px - 2px), #000 calc(100px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 2px 2px, #0000 25%, #000 0) 0 0/calc(100% - 83px) 100% repeat-y,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 0 100%/100% calc(100% - 83px) repeat-x;
+  }
+
+  .four:before {
+    --mask: radial-gradient(100px at -6% -10%, #0000 calc(100px - 2px), #000 calc(100px - 1px) 98%, #0000),
+      conic-gradient(from 180deg at right 2px top 2px, #0000 0 90deg, #000 0) 100% 0/calc(100% - 84px) 100% no-repeat,
+      conic-gradient(from 0deg at left 2px bottom 2px, #0000 0 90deg, #000 0) 0 100%/100% calc(100% - 84px) no-repeat;
+  }
+
+  .right_chart svg circle {
+    stroke-width: 12px;
+  }
+
+  .right_chart .profile_issue .heading_text,
+  .right_chart .Network_status .heading_text {
+    font-size: 16px;
+  }
+
+  .right_chart {
+    gap: 10px;
+  }
+
+  /* End Section -1 */
+
+
+  .pie_card svg circle:last-of-type {
+    --score: 292px;
+  }
+
+  .pie_card svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .peer_group {
+    grid-gap: 10px;
+  }
+
+  .pie_card circle {
+    r: 45px;
+    cx: 50px;
+    cy: 50px;
+  }
+
+  .pie_card .number h3 {
+    font-size: 24px;
+  }
+
+  .pie_card svg circle {
+    stroke-width: 10;
+  }
+
+  .scores_ul .scores_item p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .job_title {
+    font-size: 14px;
+  }
+
+  .count_txt {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+
+  .your-text {
+    font-size: 14px;
+  }
+
+  .scores_ul .scores_item p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .section_4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .my_heading {
+    font-size: 14px;
+  }
+
+  #GaugeChart {
+    width: 230px;
+  }
+
+  .my_network_item p {
+    width: 80%;
+    padding: 2px 0;
+    font-size: 20px;
+  }
+
+  .my_network_item span {
+    font-size: 13px;
+    margin-top: 6px;
+  }
+
+  .my_network {
+    margin-top: 10px;
+  }
+
+  .My_References {
+    margin-top: 10px;
+  }
+
+  .pie_card_new svg {
+    width: 110px;
+    height: 110px;
+  }
+
+  .pie_card_new circle {
+    cy: 55px;
+    cx: 55px;
+    r: 45px;
+  }
+
+  .pie_card_new svg circle:last-of-type {
+    stroke-dasharray: 250px;
+    stroke-dashoffset: calc(250px - (250px * var(--percent)) / 100);
+  }
+
+  .pie_card_new svg circle {
+    stroke-width: 12;
+  }
+
+  .txt_progress {
+    font-size: 20px;
+  }
+
+  .References_txt {
+    font-size: 14px;
+  }
+
+
+  .Profile_imges {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Agencies p {
+    font-size: 13px;
+  }
+
+  .Polygon_imges span {
+    font-size: 14px;
+  }
+
+  .my_Profile_item {
+    display: grid;
+    grid-template-columns: auto 30px;
+    grid-gap: 5px;
+  }
+
+  .my_Profile_sec {
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Section-5 */
+  .section_5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu_item {
+    --shape-width: 80px;
+    gap: 15px;
+  }
+
+  .menu_item .shape {
+    height: 70px;
+  }
+
+  .menu_item .cont p {
+    font-size: 18px;
+  }
+
+  .menu_item .cont .line {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width:767px) {
+  .one:before {
+    --mask: radial-gradient(105px at 106% 110%, #0000 calc(104px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 4px 2px, #0000 25%, #000 0) -2px 0/100% calc(100% - 86px) repeat-x,
+      conic-gradient(at bottom 2px left 2px, #0000 25%, #000 0) 0 100%/calc(100% - 84px) 100% repeat-y;
+  }
+
+  .two:before {
+    --mask: radial-gradient(105px at -5% 112%, #0000 calc(104px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 3px 2px, #0000 25%, #000 0) 100% 0/100% calc(100% - 84px) repeat-x,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 100% 100%/calc(100% - 87px) 100% repeat-y;
+  }
+
+  .three:before {
+    --mask: radial-gradient(104px at 105% -12%, #0000 calc(103px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 90deg at 2px 2px, #0000 25%, #000 0) 0 0/calc(100% - 85px) 100% repeat-y,
+      conic-gradient(at bottom 2px right 2px, #000 75%, #0000 0) 0 100%/100% calc(100% - 83px) repeat-x;
+  }
+
+  .four:before {
+    --mask: radial-gradient(104px at -6% -11%, #0000 calc(104px - 2px), #000 calc(104px - 1px) 98%, #0000),
+      conic-gradient(from 180deg at right 2px top 2px, #0000 0 90deg, #000 0) 100% 0/calc(100% - 84px) 100% no-repeat,
+      conic-gradient(from 0deg at left 2px bottom 2px, #0000 0 90deg, #000 0) 0 100%/100% calc(100% - 84px) no-repeat;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .Right_side {
+    margin: 0 10px;
+  }
+
+  .ranking_line {
+    font-size: 16px;
+  }
+
+  .peer_group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chart_content {
+    display: block;
+  }
+
+  .nav {
+    margin-top: 20px;
+  }
+
+  header .header_link.log_out {
+    padding: 4px 6px;
+    font-size: 14px;
+  }
+
+  header .header_link {
+    margin-left: 8px;
+  }
+
+  .scores_ul {
+    margin-top: 10px;
+  }
+
+  /* start Section -1 */
+  .chart {
+    position: initial;
+    transform: initial;
+  }
+
+  .chart svg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .chart svg circle {
+    r: 84px;
+    cy: 100px;
+    cx: 100px;
+  }
+
+  .chart svg circle {
+    stroke-width: 30;
+  }
+
+  .chart .number h3 {
+    font-size: 45px;
+  }
+
+  .chart .number span {
+    font-size: 20px;
+  }
+
+  .chart svg circle:last-of-type {
+    --value: 528px;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content {
+    width: 100%;
+  }
+
+  .pie_chart_1 .pie_ul .li_item {
+    border: 1px solid #fff;
+  }
+
+  .box:before {
+    display: none;
+  }
+
+  .pie_chart_1 .pie_ul {
+    grid-template-columns: initial;
+    grid-auto-rows: 200px 170px 170px 170px 170px;
+    gap: 10px;
+  }
+
+  .pie_chart_1 .pie_ul .li_item .content h2 {
+    font-size: 45px;
+  }
+
+  .right_chart .profile_issue,
+  .right_chart .Network_status {
+    padding: 6px 6px;
+  }
+
+  .right_chart {
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+  }
+
+  .right_chart .profile_issue .heading_text,
+  .right_chart .Network_status .heading_text {
+    font-size: 14px;
+  }
+
+  .right_chart svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .right_chart svg circle {
+    r: 25px;
+    cx: 30px;
+    cy: 30px;
+  }
+
+  .right_chart svg circle {
+    stroke-width: 6px;
+  }
+
+  .right_chart .number h4 {
+    font-size: 18px;
+  }
+
+  .right_chart svg circle:last-of-type {
+    --value: 156px;
+  }
+
+  .right_chart span {
+    font-size: 12px;
+  }
+
+  .right_chart .label {
+    font-size: 14px;
+  }
+
+  .dashboard {
+    padding: 10px;
+  }
+
+  .section_1 {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  /* End Section -1 */
+
+  .peer_group {
+    margin-top: 10px;
+  }
+
+  .pie_card svg circle:last-of-type {
+    --score: 214px;
+  }
+
+  .pie_card svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .peer_group {
+    grid-gap: 10px;
+  }
+
+  .pie_card circle {
+    r: 34px;
+    cx: 40px;
+    cy: 40px;
+  }
+
+  .pie_card .number h3 {
+    font-size: 24px;
+  }
+
+  .pie_card svg circle {
+    stroke-width: 8px;
+  }
+
+  .scores_ul .scores_item p {
+    color: white;
+    font-size: 14px;
+  }
+
+  .job_title {
+    font-size: 13px;
+  }
+
+  .count_txt {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+
+  .your-text {
+    font-size: 14px;
+  }
+
+  .scores_ul .scores_item p {
+    color: white;
+    font-size: 12px;
+  }
+
+  .section_4 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+  }
+
+  .my_heading {
+    font-size: 14px;
+  }
+
+  .my_network_item p {
+    padding: 2px 0;
+    font-size: 18px;
+  }
+
+  .my_network_item span {
+    font-size: 13px;
+    margin-top: 6px;
+  }
+
+  .my_network {
+    margin-top: 10px;
+  }
+
+  #GaugeChart {
+    margin-top: 10px;
+  }
+
+  .My_References {
+    margin-top: 10px;
+  }
+
+  .pie_card_new svg {
+    width: 90px;
+    height: 90px;
+  }
+
+  .pie_card_new circle {
+    cy: 45px;
+    cx: 45px;
+    r: 40px;
+  }
+
+  .References_txt {
+    font-size: 14px;
+  }
+
+  .pie_card_new svg circle {
+    stroke-width: 10;
+  }
+
+  .txt_progress {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+
+  .Profile_imges {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Agencies p {
+    font-size: 13px;
+  }
+
+  .Polygon_imges span {
+    font-size: 14px;
+  }
+
+  .my_Profile_item {
+    grid-template-columns: auto 35px;
+    grid-gap: 5px;
+  }
+
+  /* Section-5 */
+  .section_5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu_item {
+    --shape-width: 60px;
+    gap: 15px;
+  }
+
+  .menu_item .shape {
+    height: 50px;
+    padding: 8px;
+  }
+
+  .menu_item .cont p {
+    font-size: 12px;
+  }
+
+  .menu_item .cont .line {
+    margin-top: 2px;
+  }
+
+}
